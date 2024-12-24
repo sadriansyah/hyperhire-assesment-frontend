@@ -42,7 +42,7 @@ const Home = () => {
       <div className="flex-1 p-8 flex flex-col overflow-y-auto">
 
         {!isSidebarVisible && (
-          <Image className="mb-4" src="/menu-close.svg" alt="logo icon" width={30} height={4} onClick={toggleSidebar} />
+          <Image className="mb-4 cursor-pointer" src="/menu-close.svg" alt="logo icon" width={30} height={4} onClick={toggleSidebar} />
         )}
         <div className="mb-8">
           <div className="flex items-center gap-2 text-gray-500 text-sm mb-6">

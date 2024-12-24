@@ -22,7 +22,7 @@ const Sidebar = ({ isVisible, toggleSidebar }: SidebarProps) => {
           <span className="text-white text-xl font-bold">
             <Image src="/cloit.png" alt="Logo" width={80} height={4} />
           </span>
-          <Image src="/menu-open.svg" alt="logo icon" width={30} height={4} onClick={toggleSidebar} />
+          <Image src="/menu-open.svg" className="cursor-pointer" alt="logo icon" width={30} height={4} onClick={toggleSidebar} />
         </div>
         <nav className="flex-1 ">
           <div className="space-y-4 relative">
