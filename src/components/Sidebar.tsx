@@ -16,7 +16,7 @@ const Sidebar = ({ isVisible, toggleSidebar }: SidebarProps) => {
 
 
   return (
-    <div className={`m-4 rounded-xl h-full flex ${isVisible ? 'block' : 'hidden'}`}>
+    <div className={`m-4 rounded-xl h-full pb-10 flex ${isVisible ? 'block' : 'hidden'}`}>
       <div className="bg-gray-800 text-white w-64 h-full p-4 left-6 space-y-4 rounded-xl flex flex-col">
         <div className="p-4 flex justify-between items-center">
           <span className="text-white text-xl font-bold">
